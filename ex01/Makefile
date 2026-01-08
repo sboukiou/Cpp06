@@ -3,7 +3,7 @@ CPPFLAGS=-Wall -Werror -Wextra -std=c++98 -Wshadow-all
 RM=rm -rf
 SRC=main.cpp Serializer.cpp
 OBJS=$(SRC:%.cpp=%.o)
-NAME=Forms
+NAME=Serialize
 
 all: $(NAME)
 

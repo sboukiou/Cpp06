@@ -1,8 +1,7 @@
 #ifndef SERIALIZER_HPP
 # define SERIALIZER_HPP
 
-#include <cstdint>
-#include <cinttypes>
+#include <stdint.h>
 
 typedef struct Data_s {
 	int key;
